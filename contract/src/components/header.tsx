@@ -20,11 +20,11 @@ const Header = ()=>{
                 </div>
                 </Link>
             </div>
-            <div >
-                <Link href={'https://t.me/birblemain'} className="font-medium text-[1rem] ml-4 text-[#333333] ">Forum</Link>
-                <Link href={'https://www.birbleai.com/'} className="font-medium text-[1rem] ml-4 text-[#333333] ">Docs</Link>
-                <Link href={'https://github.com/Birblewin'} className="font-medium text-[1rem] ml-4 text-[#333333] ">GitHub</Link>
-                <Link href={'https://twitter.com/birble_AI'} className="font-medium text-[1rem] ml-4 text-[#333333] ">Twitter</Link>
+            <div>
+                <a href={'https://t.me/birblemain'} className="font-medium text-[1rem] ml-4 text-[#333333]" target="_blank" rel="noreferrer">Forum</a>
+                <a href={'https://www.birbleai.com/'} className="font-medium text-[1rem] ml-4 text-[#333333]" target="_blank" rel="noreferrer">Docs</a>
+                <a href={'https://github.com/Birblewin'} className="font-medium text-[1rem] ml-4 text-[#333333]" target="_blank" rel="noreferrer">GitHub</a>
+                <a href={'https://twitter.com/birble_AI'} className="font-medium text-[1rem] ml-4 text-[#333333]" target="_blank" rel="noreferrer">Twitter</a>
             </div>
         </div>
     )
