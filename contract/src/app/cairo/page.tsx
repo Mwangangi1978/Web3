@@ -8,7 +8,8 @@ import Download from "@/components/cairoDownloadBtn";
 
 
 import CopyBtn from "@/components/CopyBtn";
-
+import ERC20 from "@/components/erc20";
+import Governor from "@/components/governor";
 
 export default function Cairo() {
 
@@ -40,7 +41,7 @@ const handleClick = (index: any) => {
           </div>
         </div>
         <div className="flex flex-row gap-4 grow">
-            <div className="w-64 flex flex-col shrink-0 justify-between overflow-auto svelte-litm755 h-[calc(100vh-84px)] rounded shadow-md">side bar</div>
+            <div className="w-64 flex flex-col shrink-0 justify-between overflow-auto svelte-litm755 h-[calc(100vh-84px)] rounded shadow-md"><Governor/></div>
             
 
             <div className="output flex flex-col grow overflow-auto svelte-1itm755 h-[calc(100vh-84px)]  ">

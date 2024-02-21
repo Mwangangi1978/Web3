@@ -3,10 +3,10 @@ import Header from "@/components/header";
 import CodeEditor from "@/components/syntaxHighlighter";
 import Image from "next/image";
 import { useState } from "react";
-
+import ERC20 from "@/components/erc20";
 import Download from "@/components/solidityDownloadBtn";
 import RenderBtn from "@/components/RenderBtn";
-
+import Governor from "@/components/governor";
 import CopyBtn from "@/components/CopyBtn";
 import DefenderBtn from "@/components/DefenderBtn";
 
@@ -42,7 +42,7 @@ const handleClick = (index: any) => {
           </div>
         </div>
         <div className="flex flex-row gap-4 grow">
-            <div className="w-64 flex flex-col shrink-0 justify-between overflow-auto svelte-litm755 h-[calc(100vh-84px)] rounded shadow-md">side bar</div>
+            <div className="w-64 flex flex-col shrink-0 justify-between overflow-auto svelte-litm755 h-[calc(100vh-84px)] rounded shadow-md"><ERC20/></div>
             
 
             <div className="output flex flex-col grow overflow-auto svelte-1itm755 h-[calc(100vh-84px)]  ">

@@ -3,12 +3,12 @@
 
 const ERC20 = ()=>{
     return(
-        <div className="flex flex-col bg-white w-64 shrink-0 justify-between  overflow-auto p-4">
+        <div className="p-4">
             <div>
                 <h1 className="text-[#818998] font-semibold text-xs">SETTINGS</h1>
                 <div className="flex flex-row">
                     <div className="flex flex-col w-[60%] p-[0.5rem]">
-                        <label htmlFor="name" className="text-[#333333] text-[0.875rem]">
+                        <label htmlFor="name" className="text-[#333333] text-[0.875rem]  text-black">
                             Name
                         </label>
                         <input  id="name" type="text" placeholder="My Token" className="border border-1 border-[#333333] rounded-[6px] p-1"/>
@@ -17,14 +17,14 @@ const ERC20 = ()=>{
                         <label htmlFor="symbol" className="text-[#333333] text-[0.875rem]">
                             Symbol
                         </label>
-                        <input  id="symbol" type="text" placeholder="MTK" className="border border-1 border-[#333333] rounded-[6px] p-1"/>
+                        <input  id="symbol" type="text" placeholder="MTK" className="border border-1 border-[#333333] rounded-[6px] p-1  text-black"/>
                     </div>
                 </div>
                 <div className="flex flex-col p-[0.5rem]">
                     <label htmlFor="uri" className="text-[#333333] text-[0.875rem]">
                         Premint
                     </label>
-                    <input  id="uri" type="text" placeholder="0" className="border border-1 border-[#333333] rounded-[6px] p-1"/>
+                    <input  id="uri" type="text" placeholder="0" className="border border-1 border-[#333333] rounded-[6px] p-1  text-black"/>
                 </div>
             </div>
             <hr className="my-4"></hr>
@@ -34,7 +34,7 @@ const ERC20 = ()=>{
                     <input
                         type="checkbox"
                         className="form-checkbox h-3 w-3 rounded"
-                        checked= {false}
+                        
                     />
                     <label className="ml-[0.5rem] text-[#333333] ">Mintable</label>
                 </div>
@@ -42,7 +42,7 @@ const ERC20 = ()=>{
                     <input
                         type="checkbox"
                         className="form-checkbox h-3 w-3 text-indigo-600 rounded"
-                        checked= {false}
+                        
                     />
                     <label className="ml-[0.5rem] text-[#333333]">Burnable</label>
                 </div>
@@ -50,7 +50,7 @@ const ERC20 = ()=>{
                     <input
                         type="checkbox"
                         className="form-checkbox h-3 w-3 text-indigo-600 rounded"
-                        checked= {false}
+                        
                     />
                     <label className="ml-[0.5rem] text-[#333333] ">Pauseable</label>
                 </div>
@@ -58,7 +58,7 @@ const ERC20 = ()=>{
                     <input
                         type="checkbox"
                         className="form-checkbox h-3 w-3 text-indigo-600 rounded"
-                        checked= {false}
+                        
                     />
                     <label className="ml-[0.5rem] text-[#333333] ">Votes</label>
                 </div>
@@ -66,7 +66,7 @@ const ERC20 = ()=>{
                     <input
                         type="checkbox"
                         className="form-checkbox h-3 w-3 text-indigo-600 rounded"
-                        checked= {false}
+                        
                     />
                     <label className="ml-[0.5rem] text-[#333333] ">Flash Minting</label>
                 </div>
@@ -79,7 +79,7 @@ const ERC20 = ()=>{
                     <input
                         type="checkbox"
                         className="form-checkbox h-3 w-3 rounded"
-                        checked= {false}
+                        
                     />
                 </div>
                 <div className="m-[0.5rem]  flex items-center">
@@ -87,7 +87,7 @@ const ERC20 = ()=>{
                     <input
                         type="radio"
                         className="form-checkbox h-3 w-3"
-                        checked= {false}
+                        
                     />
                     <label className="ml-2 text-[#333333] ">Ownable</label>
                 </div>
@@ -96,7 +96,7 @@ const ERC20 = ()=>{
                     <input
                         type="radio"
                         className="radio h-3 w-3 "
-                        checked= {false}
+                        
                     />
                     <label className="ml-2 text-[#333333] ">Roles Managed</label>
                 </div>
@@ -105,7 +105,7 @@ const ERC20 = ()=>{
                     <input
                         type="radio"
                         className="form-checkbox h-3 w-3"
-                        checked= {false}
+                        
                     />
                     <label className="ml-2 text-[#333333] ">Mintable</label>
                 </div>
@@ -118,7 +118,7 @@ const ERC20 = ()=>{
                     <input
                         type="checkbox"
                         className="form-checkbox h-3 w-3 rounded"
-                        checked= {false}
+                        
                     />
                 </div>
                 <div className="m-[0.5rem] flex items-center">
@@ -126,7 +126,7 @@ const ERC20 = ()=>{
                     <input
                         type="radio"
                         className="form-checkbox h-3 w-3"
-                        checked= {false}
+                        
                     />
                     <label className="ml-2 text-[#333333] ">Transparent</label>
                 </div>
@@ -135,7 +135,7 @@ const ERC20 = ()=>{
                     <input
                         type="radio"
                         className="radio h-3 w-3"
-                        checked= {false}
+                        
                     />
                     <label className="ml-2 text-[#333333] ">UUPS</label>
                 </div>
@@ -149,13 +149,13 @@ const ERC20 = ()=>{
                     <label htmlFor="Security Contact" className="text-[#333333] text-sm">
                         Security Contact
                     </label>
-                    <input  id="Security Contact" type="text" placeholder="security@example.com" className="border border-1 border-[#333333] rounded-[6px] p-1"/>
+                    <input  id="Security Contact" type="text" placeholder="security@example.com" className="border border-1 border-[#333333] rounded-[6px] p-1  text-black"/>
                 </div>
                 <div className="flex flex-col mt-[0.75rem]">
                     <label htmlFor="license" className="text-[#333333] text-sm">
                         License
                     </label>
-                    <input  id="license" type="text" placeholder="MIT" className="border border-1 border-[#333333] rounded-[6px] p-1" />
+                    <input  id="license" type="text" placeholder="MIT" className="border border-1 border-[#333333] rounded-[6px] p-1  text-black" />
                 </div>
             </div>
         </div>
