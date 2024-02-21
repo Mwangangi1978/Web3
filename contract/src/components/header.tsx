@@ -10,7 +10,7 @@ const Header = ()=>{
 
     const svg = "/logo.svg"
     return(
-        <div className="flex flex-row items-center min-w-[800px] mx-auto p-4 place-content-between bg-white mb-8"> 
+        <div className="flex flex-row items-center min-w-[800px] mx-auto p-4 place-content-between bg-[#ffffff] mb-8"> 
             <div className="flex items-center">   
                 <Image src={svg} alt="birble logo" width={50} height={50}/>
                 <Link href={'https://www.birbleai.com/'} className="font-semibold text-xl ml-2 text-[#333333]">Birble AI<span className="font-light text-xl text-[#333333]">| contracts</span></Link>
