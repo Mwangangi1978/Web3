@@ -12,7 +12,7 @@ const Tool: React.FC<{link?:string; tooltipText: string; linktext?: string }> = 
   return (
     <TooltipProvider>
       <Tooltip>
-        <TooltipTrigger><img src={'/svg.svg'} alt='svg' className="w-3 h-3" /></TooltipTrigger>
+        <TooltipTrigger><img src={'/svg.svg'} alt='svg' className="w-4 h-4" /></TooltipTrigger>
         <TooltipContent>
           <p>{tooltipText}</p>
           {link &&
