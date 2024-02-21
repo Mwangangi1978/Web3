@@ -10,10 +10,10 @@ import Governor from "@/components/governor";
 import CopyBtn from "@/components/CopyBtn";
 import DefenderBtn from "@/components/DefenderBtn";
 import ERC721 from "@/components/ERC721";
-//import ERC20 from "@/components/ERC20";
+
 // import ERC1155 from "@/components/ERC1155";
 // import Custom from "@/components/Custom";
-// import Governor from "@/components/Governor";
+
 
 export default function Home() {
 
@@ -57,11 +57,11 @@ function changeTab(clickedButton: any) {
         </div>
         <div className="flex flex-row gap-4 grow">
             <div className="w-64 flex flex-col shrink-0 justify-between overflow-auto  h-[calc(100vh-84px)] rounded shadow-md">
-              {selected === 'ERC20' &&  'ERC20'}
-              {selected === 'ERC721' &&  'ERC721'}
+              {selected === 'ERC20' &&  <ERC20/>}
+              {selected === 'ERC721' &&  <ERC721/>}
               {selected === 'ERC1155' &&  'ERC1155'}
               {selected === 'Custom' &&  'Custom'}
-              {selected === 'Governor' &&  'Governor'}
+              {selected === 'Governor' &&  <Governor/>}
             </div>
             
 
