@@ -19,7 +19,7 @@ const handleClick = (index: any) => {
 };
   return (
     <>
-    <div className="flex flex-col gap-4 p-4 mx-4 rounded   bg-slate-50">
+    <div className="flex flex-col gap-4 p-4 mx-4 rounded  shadow-md bg-[#ffffff]">
       <div className=" flex flex-row justify-between ">
           <div className=" overflow-hidden ">
               <div className="flex overflow-hidden ">

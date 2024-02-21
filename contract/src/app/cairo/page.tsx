@@ -19,7 +19,7 @@ const handleClick = (index: any) => {
 };
   return (
     <>
-    <div className="flex flex-col gap-4 p-4 mx-4 rounded   bg-slate-50">
+    <div className="flex flex-col gap-4 p-4 mx-4 rounded shadow-md  bg-[#ffffff]">
       <div className=" flex flex-row justify-between ">
           <div className=" overflow-hidden ">
               <div className="flex overflow-hidden ">
@@ -40,7 +40,7 @@ const handleClick = (index: any) => {
           </div>
         </div>
         <div className="flex flex-row gap-4 grow">
-            <div className="w-64 flex flex-col shrink-0 justify-between overflow-auto h-[calc(100vh-84px)] rounded shadow-md">side bar</div>
+            <div className="w-64 flex flex-col shrink-0 justify-between overflow-auto h-[calc(100vh-84px)] rounded shadow-md  ">side bar</div>
             
 
             <div className="output flex flex-col grow overflow-auto  h-[calc(100vh-84px)]  ">
