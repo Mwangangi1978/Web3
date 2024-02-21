@@ -1,9 +1,9 @@
-
+import Tool from "./tool";
 
 
 const ERC20 = ()=>{
     return(
-        <div className="p-4">
+        <div className="p-4 overflow-visible">
             <div>
                 <h1 className="text-[#818998] font-semibold text-xs">SETTINGS</h1>
                 <div className="flex flex-row">
@@ -30,13 +30,16 @@ const ERC20 = ()=>{
             <hr className="my-4"></hr>
             <div>
                 <h1 className="text-[#818998] font-semibold text-xs">FEATURES</h1>
-                <div className="m-[0.5rem] flex items-center">
-                    <input
-                        type="checkbox"
-                        className="form-checkbox h-3 w-3 rounded"
-                        
-                    />
-                    <label className="ml-[0.5rem] text-[#333333] ">Mintable</label>
+                <div className="m-[0.5rem] flex items-center place-content-between">
+                    <div className="flex items-center">
+                        <input
+                            type="checkbox"
+                            className="form-checkbox h-3 w-3 rounded"
+                            
+                        />
+                        <label className="ml-[0.5rem] text-[#333333] ">Mintable</label>
+                    </div>
+                    <Tool tooltipText="Tooltip Text Here" link='https://www.birbleai.com/' linktext='Read more'/>
                 </div>
                 <div className="m-[0.5rem] flex items-center">
                     <input
