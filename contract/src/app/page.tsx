@@ -19,19 +19,19 @@ const handleClick = (index: any) => {
 };
   return (
     <>
-    <div className="container flex flex-col gap-4 p-4 svelte-1itm755 rounded mx-auto  bg-slate-50">
-      <div className="header flex flex-row justify-between svelte-1itm755">
-          <div className="tab overflow-hidden svelte-1itm755">
-              <div className="flex overflow-hidden gap-5">
-                <button type="button" className={`text-black font-bold hover:bg-gray-200 p-2 rounded-md ${selected === 0 ? 'selectedd bg-[#4e5de4] hover:bg-blue-600 text-slate-50' : ''}`} onClick={() => handleClick(0)}>ERC20</button>
+    <div className="flex flex-col gap-4 p-4 mx-4 rounded   bg-slate-50">
+      <div className=" flex flex-row justify-between ">
+          <div className=" overflow-hidden ">
+              <div className="flex overflow-hidden ">
+                <button type="button" className={`text-black font-bold hover:bg-gray-200 py-2 px-4 rounded-md ${selected === 0 ? ' bg-[#4e5de4] hover:bg-blue-600 text-slate-50' : ''}`} onClick={() => handleClick(0)}>ERC20</button>
 
-                <button type="button" className={`text-black font-bold hover:bg-gray-200 p-2 rounded-md ${selected === 1 ? 'selectedd bg-[#4e5de4] hover:bg-blue-600 text-slate-50' : ''}`} onClick={() => handleClick(1)}>ERC721</button>
+                <button type="button" className={`text-black font-bold hover:bg-gray-200 py-2 px-4 rounded-md ${selected === 1 ? ' bg-[#4e5de4] hover:bg-blue-600 text-slate-50' : ''}`} onClick={() => handleClick(1)}>ERC721</button>
 
-                <button type="button" className={`text-black font-bold hover:bg-gray-200 p-2 rounded-md ${selected === 2 ? 'selectedd bg-[#4e5de4] hover:bg-blue-600 text-slate-50' : ''}`} onClick={() => handleClick(2)}>ERC1155</button>
+                <button type="button" className={`text-black font-bold hover:bg-gray-200 py-2 px-4 rounded-md ${selected === 2 ? ' bg-[#4e5de4] hover:bg-blue-600 text-slate-50' : ''}`} onClick={() => handleClick(2)}>ERC1155</button>
                 
-                <button type="button" className={`text-black font-bold hover:bg-gray-200 p-2 rounded-md ${selected === 3 ? 'selectedd bg-[#4e5de4] hover:bg-blue-600 text-slate-50' : ''}`} onClick={() => handleClick(3)}>Governor</button>
+                <button type="button" className={`text-black font-bold hover:bg-gray-200 py-2 px-4 rounded-md ${selected === 3 ? ' bg-[#4e5de4] hover:bg-blue-600 text-slate-50' : ''}`} onClick={() => handleClick(3)}>Governor</button>
 
-                <button type="button" className={`text-black font-bold hover:bg-gray-200 p-2 rounded-md ${selected === 4 ? 'selectedd bg-[#4e5de4] hover:bg-blue-600 text-slate-50' : ''}`} onClick={() => handleClick(4)}>Custom</button>
+                <button type="button" className={`text-black font-bold hover:bg-gray-200 py-2 px-4 rounded-md ${selected === 4 ? ' bg-[#4e5de4] hover:bg-blue-600 text-slate-50' : ''}`} onClick={() => handleClick(4)}>Custom</button>
               </div>
           </div>
           <div className="action flex flex-row gap-2 shrink-0">  
@@ -42,10 +42,10 @@ const handleClick = (index: any) => {
           </div>
         </div>
         <div className="flex flex-row gap-4 grow">
-            <div className="w-64 flex flex-col shrink-0 justify-between overflow-auto svelte-litm755 h-[calc(100vh-84px)] rounded shadow-md"><ERC20/></div>
+            <div className="w-64 flex flex-col shrink-0 justify-between overflow-auto  h-[calc(100vh-84px)] rounded shadow-md">side bar</div>
             
 
-            <div className="output flex flex-col grow overflow-auto svelte-1itm755 h-[calc(100vh-84px)]  ">
+            <div className="output flex flex-col grow overflow-auto  h-[calc(100vh-84px)]  ">
               <CodeEditor/>
             </div>
         
